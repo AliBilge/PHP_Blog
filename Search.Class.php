@@ -12,6 +12,7 @@
         );
         // Output that snack!
         $blog->output();
+        echo $id;
       }
       // If the Snack is not found...
       else

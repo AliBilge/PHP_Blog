@@ -13,7 +13,7 @@ class lists
         ?>
         
         <dl>
-            <dt>Title</dt>
+            <dt></dt>
                 <dd><?php echo $this->title; ?></dd>
             <dt>Content</dt>
                 <dd><?php echo $this->comtent; ?></dd>

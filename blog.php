@@ -6,6 +6,7 @@ include './Lists.Class.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <title>PHP Blog</title>
 </head>
 <body>
@@ -16,6 +17,7 @@ include './Lists.Class.php';
     <input type='text' name='search' size='50' />
     <input type='submit' value='search' />
     </form>
+    
     <h3>Blog Lists</h3>
     <?php
     $blog = array();
