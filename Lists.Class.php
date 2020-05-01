@@ -11,12 +11,14 @@ class lists
         $output = '';
         ob_start();
         ?>
+        
         <dl>
             <dt>Title</dt>
                 <dd><?php echo $this->title; ?></dd>
             <dt>Content</dt>
                 <dd><?php echo $this->comtent; ?></dd>
         </dl>
+        
         <?php
         $output = ob_get_clean();
         if ( $echo === TRUE ) echo $output;

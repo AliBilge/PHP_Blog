@@ -9,7 +9,14 @@ include './Lists.Class.php';
     <title>PHP Blog</title>
 </head>
 <body>
+<pre>
     <h1>PHP Blog Assignment</h1>
+    <h3>Search Engine</h3>
+    <form action='./Search.Class.php' method='GET'>
+    <input type='text' name='search' size='50' />
+    <input type='submit' value='search' />
+    </form>
+    <h3>Blog Lists</h3>
     <?php
     $blog = array();
     $dataFile = './data.json';
@@ -26,6 +33,6 @@ include './Lists.Class.php';
                 }
             }   
     ?>
-    
+</pre>   
 </body>
 </html>
